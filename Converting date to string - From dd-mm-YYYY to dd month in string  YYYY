@@ -1,0 +1,18 @@
+//inputDate = "25-11-2016"
+//inputDate = "dd-mm-yyyy"
+
+function getFormattedStringDate(inputDate){
+
+        var sptdate = String(inputDate).split("-");
+        var months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+        var myMonth = sptdate[1];
+        var myDay = sptdate[0];
+        var myYear = sptdate[2];
+        var combineDatestr = myDay + " " + months[myMonth - 1] + " " + myYear;
+    
+       return combineDatestr;
+}
+
+Output:
+
+25 Nov 2016

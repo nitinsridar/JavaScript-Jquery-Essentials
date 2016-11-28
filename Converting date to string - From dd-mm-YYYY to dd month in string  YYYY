@@ -16,3 +16,7 @@ function getFormattedStringDate(inputDate){
 Output:
 
 25 Nov 2016
+-------------------------------------------------------------------------------
+// Call to this function
+
+getFormattedStringDate(inputDate);
